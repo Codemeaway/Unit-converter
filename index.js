@@ -42,3 +42,7 @@ convertBtn.addEventListener("click", function () {
   ).toFixed(3)} pounds
     | ${baseValue} pounds = ${(baseValue * poundToKilo).toFixed(3)} kilos`;
 });
+
+inputEl.onfocus = function () {
+  this.value = "";
+};
